@@ -14,3 +14,10 @@ z := float64(1)
 Next, change the loop condition to stop once the value has stopped changing (or only changes by a very small amount). See if that's more or fewer than 10 iterations. Try other initial guesses for z, like x, or x/2. How close are your function's results to the math.Sqrt in the standard library?
 
 (Note: If you are interested in the details of the algorithm, the z² − x above is how far away z² is from where it needs to be (x), and the division by 2z is the derivative of z², to scale how much we adjust z by how quickly z² is changing. This general approach is called Newton's method. It works well for many functions but especially well for square root.)
+
+
+answer 
+
+result fmt.Println(Sqrt(2))      1.414213562373095 
+result fmt.Println(math.Sqrt(2)) 1.4142135623730951  
+both are approximately same.
