@@ -1,4 +1,4 @@
-As a way to play with functions and loops, let's implement a square root function: given a number x, we want to find the number z for which z² is most nearly x.
+# question As a way to play with functions and loops, let's implement a square root function: given a number x, we want to find the number z for which z² is most nearly x.
 
 Computers typically compute the square root of x using a loop. Starting with some guess z, we can adjust z based on how close z² is to x, producing a better guess:
 
@@ -16,7 +16,7 @@ Next, change the loop condition to stop once the value has stopped changing (or 
 (Note: If you are interested in the details of the algorithm, the z² − x above is how far away z² is from where it needs to be (x), and the division by 2z is the derivative of z², to scale how much we adjust z by how quickly z² is changing. This general approach is called Newton's method. It works well for many functions but especially well for square root.)
 
 
-answer 
+# answer 
 
 result fmt.Println(Sqrt(2))      1.414213562373095 
 result fmt.Println(math.Sqrt(2)) 1.4142135623730951  
