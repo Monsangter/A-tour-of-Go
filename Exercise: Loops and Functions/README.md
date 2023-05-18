@@ -20,6 +20,6 @@ Next, change the loop condition to stop once the value has stopped changing (or 
 
 # answer 
 
-result fmt.Println(Sqrt(2))      1.414213562373095 
-result fmt.Println(math.Sqrt(2)) 1.4142135623730951  
+result fmt.Println(Sqrt(2))      1.414213562373095 <br>
+result fmt.Println(math.Sqrt(2)) 1.4142135623730951  <br>
 both are approximately same.
