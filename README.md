@@ -1,3 +1,5 @@
 https://go.dev/tour/
 
-my journey diary of Go
+#Hello, 世界
+
+It's my journey diary of Go
