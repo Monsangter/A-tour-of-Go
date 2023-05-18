@@ -1,3 +1,3 @@
-[d](https://go.dev/tour/)
+https://go.dev/tour/
 
 my journey diary of Go
